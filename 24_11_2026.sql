@@ -14,3 +14,5 @@ ON o.customer_id = c.customerID
 SELECT c.customerID, c.customer_name,p.product_id, p.product_name
 FROM customers c
 CROSS JOIN products p
+
+/*36)
